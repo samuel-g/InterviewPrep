@@ -5,14 +5,8 @@ import java.util.Map;
 /**
  * Give a list of student test scores, find the best average grade 
  * Each student may have more then one test score in the list
- * 
  * Return 0 for an empty input
- * 
- *
  */
-
-
-
 
 public class BestAverageGrade {
 	
@@ -28,7 +22,6 @@ public class BestAverageGrade {
 			
 			if(score>100) throw new Exception("Invalid Score!");
 
-			
 			if(hashMap.containsKey(scores[arr][0])) {
 				hashMap.put(studentName, (hashMap.get(studentName) + score));
 				count.put(studentName, count.get(studentName)+1);
@@ -36,17 +29,14 @@ public class BestAverageGrade {
 				hashMap.put(studentName, score);
 				count.put(studentName, 1);
 			}
-		}
-		
+		}		
 		
 		for(String studentName : hashMap.keySet()) {
 			hashMap.put(studentName, hashMap.get(studentName) / count.get(studentName));
 		}
 		
 		
-		return Collections.max(hashMap.entrySet(), 
-								(entry1, entry2) -> entry1.getValue() - entry2.getValue()).getValue();
-
+		return Collections.max(hashMap.entrySet(), (entry1, entry2) -> entry1.getValue() - entry2.getValue()).getValue();
 	}
 
 }

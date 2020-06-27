@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="FizzBuzzTest" time="0" errors="0" skipped="0">
+<testsuite tests="3" failures="0" name="BestAverageGradeTest" time="0.001" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="14.0.1+7"/>
@@ -59,8 +59,7 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="FizzBuzzTest" name="testPrintFizzBuzzForMutiplesOfFive" time="0"/>
-  <testcase classname="FizzBuzzTest" name="testPrintFizzBuzzForNotMultiplesofThreeandFive" time="0"/>
-  <testcase classname="FizzBuzzTest" name="testPrintFizzBuzzForMutiplesOfThree" time="0"/>
-  <testcase classname="FizzBuzzTest" name="testPrintFizzBuzzForMutiplesOfThreeandFive" time="0"/>
+  <testcase classname="BestAverageGradeTest" name="bestAverageGradeTestifEmptyArray" time="0.001"/>
+  <testcase classname="BestAverageGradeTest" name="bestAverageGradeTestInvalidScores" time="0"/>
+  <testcase classname="BestAverageGradeTest" name="bestAverageGradeTest" time="0"/>
 </testsuite>

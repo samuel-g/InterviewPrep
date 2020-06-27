@@ -16,7 +16,6 @@ public class TwoSumTest {
 	public void testTwoSums() throws Exception {
 		int[] expArr = new int[] { 0, 2 };
 		int[] nums = new int[] { 1, 0, 4, 0 };
-
 		assertArrayEquals(expArr, twoSum.twoSum(nums, 5));
 	}
 
@@ -24,7 +23,6 @@ public class TwoSumTest {
 	public void testInvalidSum() throws Exception {
 		int[] expArr = new int[] { 0, 2 };
 		int[] nums = new int[] { 1, 0, 4, 0 };
-
 		assertArrayEquals(expArr, twoSum.twoSum(nums, 6));
 	}
 

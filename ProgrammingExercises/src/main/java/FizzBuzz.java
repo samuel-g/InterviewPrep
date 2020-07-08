@@ -3,8 +3,6 @@
  * three print “Fizz” instead of the number and for the multiples of five print
  * “Buzz”. For numbers which are multiples of both three and five print
  * “FizzBuzz”." 1,2,3,Fizz,4,Buzz,Fizz,7,8,Fizz..
- * 
- * @author samue
  *
  */
 public class FizzBuzz {
